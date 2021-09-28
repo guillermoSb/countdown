@@ -11,6 +11,9 @@
 		994D2F03270376AA00F7AF0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994D2F02270376AA00F7AF0D /* ContentView.swift */; };
 		994D2F05270376AE00F7AF0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 994D2F04270376AE00F7AF0D /* Assets.xcassets */; };
 		994D2F08270376AE00F7AF0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 994D2F07270376AE00F7AF0D /* Preview Assets.xcassets */; };
+		994D2F102703776000F7AF0D /* Countdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994D2F0F2703776000F7AF0D /* Countdown.swift */; };
+		994D2F122703777600F7AF0D /* CountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994D2F112703777600F7AF0D /* CountdownView.swift */; };
+		994D2F142703778600F7AF0D /* CountdownViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994D2F132703778600F7AF0D /* CountdownViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		994D2F04270376AE00F7AF0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		994D2F07270376AE00F7AF0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		994D2F09270376AE00F7AF0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		994D2F0F2703776000F7AF0D /* Countdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countdown.swift; sourceTree = "<group>"; };
+		994D2F112703777600F7AF0D /* CountdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownView.swift; sourceTree = "<group>"; };
+		994D2F132703778600F7AF0D /* CountdownViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 				994D2F02270376AA00F7AF0D /* ContentView.swift */,
 				994D2F04270376AE00F7AF0D /* Assets.xcassets */,
 				994D2F09270376AE00F7AF0D /* Info.plist */,
+				994D2F0F2703776000F7AF0D /* Countdown.swift */,
+				994D2F112703777600F7AF0D /* CountdownView.swift */,
+				994D2F132703778600F7AF0D /* CountdownViewModel.swift */,
 				994D2F06270376AE00F7AF0D /* Preview Content */,
 			);
 			path = countdown;
@@ -139,7 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				994D2F03270376AA00F7AF0D /* ContentView.swift in Sources */,
+				994D2F142703778600F7AF0D /* CountdownViewModel.swift in Sources */,
 				994D2F01270376AA00F7AF0D /* countdownApp.swift in Sources */,
+				994D2F122703777600F7AF0D /* CountdownView.swift in Sources */,
+				994D2F102703776000F7AF0D /* Countdown.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
